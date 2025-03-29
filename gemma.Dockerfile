@@ -1,4 +1,4 @@
-FROM ollama/ollama:0.6.0
+FROM ollama/ollama:latest
 ENV OLLAMA_HOST 0.0.0.0:8080
 ENV OLLAMA_MODELS /models
 ENV OLLAMA_DEBUG false
